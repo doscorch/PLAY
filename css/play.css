@@ -1,0 +1,195 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+body{
+    margin: 3em;
+    margin-bottom: 4em;
+}
+body>header{
+    margin-top: 3em;
+    padding:10px;
+    width: 100%;
+    background: rgb(60, 23, 90);
+    border-radius: 50px;
+}
+header>a>div.logo{
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 255, 255) no-repeat url("../images/lion.png") center;
+    background-size: 125px 125px;
+    border-radius: 50%;
+}
+header>nav{
+    position: absolute;
+    margin-top: 1em;
+    padding: 1em 0em 0em;
+    background-color: white;
+}
+header>nav>ul>li{
+    display: inline;
+  
+}
+header>nav>ul>li:nth-child(n+2)::before{
+    content: " | ";
+}
+body>section>h1,h2{
+    margin: 1em 0em 1em;
+    border-bottom: solid lightgrey;
+    border-width: 1px;
+    font-weight: bold;
+}
+em.sq::before{
+    content: "'";
+}
+em.sq::after{
+    content: "'";
+}
+em.sq{
+    font-style: normal;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+}
+p>q>em{
+    font-style: normal;
+    text-decoration-line: underline;
+
+}
+body>section:first-of-type{
+    margin-top: 4em;
+}
+
+body>section>ul{
+    padding: 1em 3em 1em;
+}
+div.tabs{
+    margin: 3em;
+}
+div.tabs>ul>li>a{
+    text-decoration: none;
+}
+div.tabs>ul>li{
+    display: inline;
+    margin: 0px .5px 0;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+}
+div.tabs>ul>li[class="tab active"]{
+    background-color: rgb(60, 23, 90);
+    border: solid black;
+    border-bottom-color: rgb(60, 23, 90);
+    border-width: .5px;
+}
+div.tabs>ul>li[class="tab active"]>a{
+    color: grey;
+}
+div.tabs>ul>li[class="tab"]{
+    text-decoration-line: none;
+    background-color: rgb(60, 23, 90);
+}
+div.tabs>ul>li[class="tab"]>a{
+    color: white;
+}
+div.tabs>ul>li[class="tab"]:hover{
+    background-color: rgb(60, 23, 90);
+    border: solid black;
+    border-bottom: none;
+    border-width: .5px;
+}
+div.tabs>ul>li[class="tab"]:hover>a{
+    color: white;
+}
+div[class="tab-content"]{
+    display: none;
+}
+div.tab-content{
+    margin-top: .6em;
+    background-color: rgb(60, 23, 90);
+    overflow: auto;
+    border: solid black;
+    border-width: .5px;
+
+}
+div.tab-content>p{
+    padding: 1em;
+}
+
+div.tab-content>img{
+    float: right;
+    padding: 1em;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+div.business-card{
+    padding: 1em;
+}
+header.bussiness-card-header{
+    padding-top: 1em;
+    background-color:rgb(175, 175, 175);
+    width: 100%;
+    height:50px;
+}
+header.bussiness-card-header>h1{
+    text-align: center;
+    color: white;
+}
+button.business-card-button{
+    background-color:rgb(175, 175, 175);
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+button.business-card-button>h1{
+    text-align: center;
+    color: white;
+}
+div.business-card-body{
+    background-color: white;
+    padding: 1em;
+    overflow: auto;
+}
+div.business-card-body>img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px;
+}
+div.business-card-body>div>p{
+    padding: 1em;
+}
+span.spa::before{
+    content: "SPA ";
+    font-weight: bold;
+
+}
+
+div.business-card-body div.contact{
+    padding: 1em;
+}
+div.business-card-body div.contact>ul>li{
+    float: right;
+    top: 0%;
+    list-style-type: none;
+    margin: 5px;
+    padding: .5em 0em .5em;
+    background-color: rgb(233, 176, 78);
+    border: solid black;
+    border-width: .5px;
+}
+img[class="avatar shadowed"]{
+    box-shadow: 3px 3px 0px
+}
+footer{
+    position: fixed;
+    padding: 1em;
+    bottom: 0em;
+    left: 0em;
+    width: 100%;
+    height: 1em;
+    background-color: rgb(60, 23, 90);
+    text-align: center;
+    color: white;
+}

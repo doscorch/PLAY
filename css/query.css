@@ -1,0 +1,29 @@
+.qtable{
+    border: solid black;
+    border-width: 2.5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qhead{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+    background-color: rgb(60, 23, 90);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.qrow{
+    color: black;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+.qrow:nth-child(even){
+    background-color: lightgray;
+}
+.qcell{
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
