@@ -1,0 +1,50 @@
+Premier League Application Yearbook
+
+Christian Strauss
+Tristan Rooney
+
+
+_________ Description _________
+PLAY will be a database system to hold statistics pertaining to the English Premier League. 
+The English Premier League is a Division I football league.  
+It contains a total of 20 teams, each of which is allowed 25 players who play a total of 38 games in a season. 
+This system was a great choice for us because it will be based on data that we find mutually interesting.  
+We believe that choosing a system we find interesting to be beneficial, 
+because it will keep us on task and motivated to do the best we can in providing a finished product.  
+Furthermore, there will be more than enough data to fulfill the project’s structural requirements.  
+For example, there are plenty of choices to choose from to meet the Table requirement. 
+This database will include tables such as Team, Player, Game, Manager, Play, and PlaysFor. 
+A user will be able to look up information on specific teams as well as their relative schedules. 
+The goal of the project is to create a dynamic web application able to query and hold any Premier League statistics. 
+This application will use HTML, CSS, and JavaScript code to create a web page that adapts to queries requested. 
+Popular queries could include: schedule, team rankings, or how well a team is doing. 
+We intend on making this application as versatile as possible, 
+meaning we want it to be able to query just about anything someone would want to know pertaining to the Premier League.
+
+
+_________ Functionality _________
+
+View overall standings throughout the league.
+Advanced query: subqueries
+
+Check the performance of a specific team.
+Advanced query: use aggregate functions to count wins/losses. These performances would be returned with an ordering by date so a order by clause may be necessary.
+
+Check the schedule for a specific team.
+Advanced query: use joins on teams and their games
+
+Find top 10 games.
+Advanced query: use limit, order by, and joins
+
+
+_________ Stakeholders _________
+This web based application will keep track of current Premier League statistics that can be accessed from anywhere by anyone. 
+A one stop shop allows any Premier League fan into the current status of any Premier League team, player, or standings. 
+This application will simply query what information the user want to know about.
+
+
+
+_________ Technical Requirements _________
+The web application will use HTML, CSS, JavaScript and PHP to adapt the webpage to queries presented. Code will be shared via a home network drive known as the “Armory”. The Armory will contain all code used during the developmental stages of the product. The final product will be hosted on a raspberry pi apache web server which has already been set up with a dedicated IP Address. The IP Address is stated below.
+http://www.premierleague-play.servegame.com
+
